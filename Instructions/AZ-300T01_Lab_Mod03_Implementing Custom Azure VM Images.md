@@ -49,7 +49,7 @@ The main tasks for this exercise are as follows:
 1. From the Cloud Shell pane, run the following to create a resource group and store the JSON output in a variable (replace the `<Azure region>` placeholder with the name of the Azure region that is available in your subscription and which is closest to the lab location):
 
    ```sh
-   RG=$(az group create --name az3000301-LabRG --location <Azure region>)
+   RG=$(az group create --name "az3000301-LabRG" --location <Azure region>)
    ```
    > **Note**: To list Azure regions, run `az account list-locations --output table`
 
